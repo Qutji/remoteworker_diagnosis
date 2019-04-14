@@ -2,7 +2,7 @@ var ctx = document.getElementById("myChart");
 var myChart = new Chart(ctx, {
   type: 'polarArea',
   data: {
-    labels: ["M", "T", "W", "T", "F", "S", "S"],
+    labels: ["セルフコントロール", "コミュニケーション", "業務遂行", "ITリテラシ", "健康管理", "時間管理", "タスク管理"],
     datasets: [{
       backgroundColor: [
         "#2ecc71",
